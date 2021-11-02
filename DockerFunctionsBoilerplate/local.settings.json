@@ -1,0 +1,13 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "containerUrl": "http://localhost:4444/wd/hub",
+    "isAuditActive": true,
+    "login": "tomsmith",
+    "password": "SuperSecretPassword!",
+    "loginPageUrl": "http://the-internet.herokuapp.com/login",
+    "fileDownloadPageUrl": "http://the-internet.herokuapp.com/download"
+  }
+}
