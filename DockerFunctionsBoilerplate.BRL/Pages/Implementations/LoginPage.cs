@@ -31,7 +31,7 @@ namespace DockerFunctionsBoilerplate.BRL.Pages.Implementations
 			passwordBox.SendKeys(_config["password"]);
 
 			// find auth form submission button and click it:
-			var btn = _driver.FindElement(LoginTextBoxXPath);
+			var btn = _driver.FindElement(LoginButtonXPath);
 			btn.Click();
 		}
 	}

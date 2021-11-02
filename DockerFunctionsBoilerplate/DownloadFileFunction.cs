@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 
 namespace DockerFunctionsBoilerplate
 {
-	public class Function1
+	public class DownloadFileFunction
 	{
 		private readonly IBrowser _browser;
-		public Function1(IBrowser browser)
+		public DownloadFileFunction(IBrowser browser)
 		{
 			_browser = browser;
 		}
